@@ -45,5 +45,5 @@ var testURILogs	= logUtils.getLinesByFieldValue( logs.lines , 'CS-URI' , '/thisi
  *}
  *
  */
-var stats		= logUtils.average( testURI , 'TIME-TAKEN' );
+var stats		= logUtils.average( testURILogs , 'TIME-TAKEN' );
 
